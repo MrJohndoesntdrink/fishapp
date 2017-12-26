@@ -1,0 +1,325 @@
+.head {
+  width: 100%;
+  height: 6.5333333333rem;
+  position: relative;
+  background: #fff; }
+  .head .other {
+    display: block;
+    width: 100%;
+    height: 0.6666666667rem;
+    background: #fbd42a; }
+  .head .yellow {
+    width: 100%;
+    margin-top: -0.0266666667rem;
+    background: #fff; }
+  .head .girl {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    margin-left: -0.8266666667rem;
+    display: block;
+    width: 1.6666666667rem;
+    height: 1.6666666667rem;
+    background: url(../imgs/girl.png) center no-repeat;
+    background-size: 100% 100%; }
+  .head ul {
+    width: 100%;
+    overflow: hidden;
+    background: #fff; }
+    .head ul li {
+      width: 25%;
+      text-align: center;
+      float: left;
+      font-size: 0.2666666667rem;
+      color: #444444;
+      padding: 0;
+      margin: 0; }
+      .head ul li span {
+        display: block;
+        padding: 0.1333333333rem; }
+      .head ul li a {
+        color: #444; }
+
+.ding {
+  width: 100%;
+  background: #fff;
+  margin: 0.5333333333rem 0; }
+  .ding .ding_top {
+    width: 100%;
+    height: 0.8rem;
+    background: #f2f2f2;
+    border-bottom: 2px solid #dcdcdc; }
+    .ding .ding_top h3 {
+      line-height: 0.8rem;
+      color: #444;
+      font-size: 0.3466666667rem;
+      float: left;
+      margin-left: 0.2666666667rem; }
+    .ding .ding_top h4 {
+      line-height: 0.8rem;
+      color: #a0a0a0;
+      font-size: 0.3466666667rem;
+      float: right;
+      margin-right: 0.2666666667rem; }
+  .ding .liu {
+    width: 100%;
+    background: #f2f2f2;
+    overflow: hidden; }
+    .ding .liu li {
+      width: 20%;
+      height: 1.6666666667rem;
+      float: left;
+      text-align: center;
+      font-size: 0.2933333333rem; }
+      .ding .liu li img {
+        width: 0.5333333333rem;
+        width: 0.5333333333rem;
+        margin: 0.2rem; }
+      .ding .liu li span {
+        display: block;
+        color: #a0a0a0; }
+  .ding .others {
+    width: 100%;
+    background: #fff;
+    overflow: hidden; }
+    .ding .others li {
+      width: 25%;
+      float: left;
+      text-align: center;
+      font-size: 0.2933333333rem;
+      color: #444; }
+      .ding .others li img {
+        width: 0.7733333333rem;
+        height: 0.7733333333rem;
+        margin: 0.1333333333rem 0 0 0; }
+      .ding .others li span {
+        display: block; }
+
+.list ul {
+  width: 9.3333333333rem;
+  margin: 0 auto 0.2666666667rem; }
+  .list ul li {
+    width: 100%;
+    height: 0.9333333333rem;
+    border-bottom: 1px solid #DCDCDC;
+    line-height: 0.9333333333rem;
+    font-size: 0.3333333333rem; }
+    .list ul li span {
+      margin: 0 0 0 0.2666666667rem; }
+    .list ul li img {
+      display: block;
+      float: left;
+      margin: 0.2rem 0 0 0; }
+    .list ul li .address {
+      width: 0.3333333333rem;
+      height: 0.4933333333rem; }
+    .list ul li .anquan {
+      width: 0.4rem;
+      height: 0.4533333333rem; }
+    .list ul li .seting {
+      width: 0.5066666667rem;
+      height: 0.5066666667rem; }
+    .list ul li .hezuo {
+      width: 0.52rem;
+      height: 0.4933333333rem; }
+
+.down {
+  width: 6.4rem;
+  height: 0.6666666667rem;
+  border-radius: 0.2rem;
+  background: #d03e2f;
+  text-align: center;
+  line-height: 0.6666666667rem;
+  margin: 0 auto;
+  font-size: 0.3466666667rem;
+  color: #fff; }
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #f5f5f5; }
+
+ul, li, dl, dd, dt, p, ol, h1, h2, h3, h4, h5, img, span, div {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0px; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: left; }
+
+.kinds {
+  width: 100%;
+  margin-bottom: 1.6rem; }
+  .kinds .head_box {
+    width: 100%;
+    height: 0.6666666667rem;
+    padding: 0.2666666667rem 0;
+    z-index: 999;
+    background: #fff;
+    margin: 0 auto;
+    position: relative; }
+    .kinds .head_box .serch_left {
+      width: 1.6666666667rem;
+      height: 0.6666666667rem;
+      position: absolute;
+      top: 0.2666666667rem;
+      left: 0.6666666667rem; }
+      .kinds .head_box .serch_left .map {
+        display: block;
+        width: 0.2666666667rem;
+        height: 0.3066666667rem;
+        margin: 0.2rem 0.1733333333rem 0 0;
+        background: url(../imgs/map.png) no-repeat;
+        background-size: 100% 100%;
+        float: left; }
+      .kinds .head_box .serch_left .location {
+        height: 0.6666666667rem;
+        font-size: 0.2666666667rem;
+        color: #000;
+        line-height: 0.6666666667rem;
+        text-align: center;
+        float: left; }
+      .kinds .head_box .serch_left .slide {
+        display: block;
+        width: 0.24rem;
+        height: 0.1466666667rem;
+        float: left;
+        margin: 0.3066666667rem 0 0 0.0666666667rem; }
+    .kinds .head_box .serch {
+      width: 60%;
+      height: 0.6666666667rem;
+      border-radius: 0.3066666667rem;
+      background: #f2f2f2;
+      position: absolute;
+      top: 0.2666666667rem;
+      left: 2rem; }
+      .kinds .head_box .serch .sousu {
+        width: 0.3466666667rem;
+        height: 0.3466666667rem;
+        position: absolute;
+        top: 0.16rem;
+        left: 0.6666666667rem; }
+      .kinds .head_box .serch p {
+        height: 0.6666666667rem;
+        color: #444;
+        font-size: 0.2666666667rem;
+        position: absolute;
+        left: 1.3333333333rem;
+        line-height: 0.6666666667rem; }
+    .kinds .head_box .serch_right {
+      width: 1.6666666667rem;
+      height: 0.6666666667rem;
+      position: absolute;
+      top: 0.2666666667rem;
+      right: 0.6666666667rem; }
+      .kinds .head_box .serch_right .sao {
+        width: 0.44rem;
+        height: 0.4133333333rem;
+        float: right;
+        margin: 0.1333333333rem 0 0 0.2rem; }
+      .kinds .head_box .serch_right .wechat {
+        width: 0.2533333333rem;
+        height: 0.4666666667rem;
+        float: right;
+        margin-top: 0.0933333333rem; }
+  .kinds .cheap {
+    width: 9.3333333333rem;
+    height: 3.3333333333rem;
+    margin: 0.2666666667rem auto 0;
+    background: url(../imgs/cheap.png) no-repeat center;
+    background-size: 100% 100%;
+    position: relative; }
+    .kinds .cheap .cheap_txt {
+      width: 5.2rem;
+      height: 1.8666666667rem;
+      background: rgba(49, 58, 10, 0.6);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -0.9333333333rem;
+      margin-left: -2.6351351351rem;
+      color: #fff; }
+      .kinds .cheap .cheap_txt p {
+        font-size: 0.2933333333rem;
+        margin: 0.2rem 0 0 0.4rem; }
+      .kinds .cheap .cheap_txt h2 {
+        font-size: 0.48rem;
+        margin: 0.1333333333rem 0 0 0.4rem; }
+      .kinds .cheap .cheap_txt img {
+        position: absolute;
+        top: 0.6rem;
+        right: 0.2666666667rem; }
+  .kinds .kind {
+    width: 9.3333333333rem;
+    margin: 0.2666666667rem auto 0;
+    overflow: hidden; }
+    .kinds .kind li {
+      width: 49%;
+      height: 3.4rem;
+      float: left;
+      margin: 0.1333333333rem 0.1333333333rem 0 0;
+      position: relative;
+      overflow: hidden; }
+      .kinds .kind li a .kis {
+        height: 100%;
+        width: 100%; }
+      .kinds .kind li a .txt {
+        width: 3.7333333333rem;
+        height: 1.7333333333rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -0.8666666667rem;
+        margin-left: -1.8666666667rem;
+        color: #fff; }
+        .kinds .kind li a .txt p {
+          font-size: 0.2933333333rem;
+          margin: 0.2rem 0 0 0.4rem; }
+        .kinds .kind li a .txt h2 {
+          font-size: 0.48rem;
+          margin: 0.1333333333rem 0 0 0.4rem; }
+        .kinds .kind li a .txt img {
+          position: absolute;
+          top: 0.6rem;
+          right: 0.2666666667rem; }
+    .kinds .kind .no_right {
+      margin-right: 0; }
+
+.footer {
+  width: 100%;
+  height: 1.3066666667rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0rem;
+  left: 0; }
+  .footer ul {
+    width: 100%;
+    height: 100%; }
+    .footer ul li {
+      text-align: center;
+      float: left;
+      width: 25%;
+      height: 100%;
+      font-size: 0.2133333333rem;
+      color: #444; }
+    .footer ul a {
+      color: #444; }
+      .footer ul a img {
+        width: 0.72rem;
+        height: 0.6933333333rem;
+        margin: 0.1333333333rem; }
+      .footer ul a span {
+        display: block; }
+
+/*# sourceMappingURL=kinds.css.map */

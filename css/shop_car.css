@@ -1,0 +1,140 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #f2f2f2; }
+
+ul, li, dl, dd, dt, p, ol, h1, h2, h3, h4, h5, img, span, div {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0px; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: left; }
+
+.shopcar_top {
+  width: 100%;
+  height: 1.0666666667rem;
+  color: #444;
+  background: #fbd42a; }
+  .shopcar_top h3 {
+    height: 1.0666666667rem;
+    line-height: 1.0666666667rem;
+    font-size: 0.4rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -0.9333333333rem; }
+  .shopcar_top p {
+    height: 1.0666666667rem;
+    line-height: 1.0666666667rem;
+    font-size: 0.3466666667rem;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0.5333333333rem; }
+
+.shopcar_goods {
+  width: 100%; }
+  .shopcar_goods ul {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 1.0666666667rem; }
+    .shopcar_goods ul li {
+      width: 100%;
+      height: 4rem;
+      background: #fff;
+      margin-bottom: 0.4rem; }
+      .shopcar_goods ul li .goods_top {
+        width: 9.3333333333rem;
+        margin: 0 auto;
+        height: 1.0666666667rem;
+        border-bottom: 1px solid #dcdcdc;
+        line-height: 1.0666666667rem;
+        font-size: 0.4rem; }
+        .shopcar_goods ul li .goods_top h4 {
+          color: #444;
+          float: left;
+          margin-left: 0.5333333333rem;
+          font-weight: 100; }
+        .shopcar_goods ul li .goods_top p {
+          font-size: 0.3466666667rem;
+          color: #ccc;
+          float: right;
+          margin-right: 0.5333333333rem; }
+      .shopcar_goods ul li .goods {
+        width: 9.3333333333rem;
+        margin: 0 auto; }
+        .shopcar_goods ul li .goods img {
+          width: 2.6666666667rem;
+          margin: 0.2666666667rem 0 0 0.6666666667rem; }
+        .shopcar_goods ul li .goods .case_descript {
+          width: 5.2rem;
+          height: 2.8666666667rem;
+          font-size: 0.2933333333rem;
+          color: #444;
+          position: relative;
+          margin-left: 0.2666666667rem; }
+          .shopcar_goods ul li .goods .case_descript h3 {
+            font-size: 0.3733333333rem;
+            font-weight: normal;
+            margin: 0.2666666667rem 0; }
+          .shopcar_goods ul li .goods .case_descript .case_sp {
+            display: block;
+            color: #a0a0a0; }
+          .shopcar_goods ul li .goods .case_descript p {
+            margin: 0.2rem 0; }
+            .shopcar_goods ul li .goods .case_descript p span {
+              font-size: 0.4rem;
+              color: #fd663b; }
+          .shopcar_goods ul li .goods .case_descript .shop_car {
+            width: 2.4rem;
+            height: 0.4533333333rem;
+            border-radius: 0.2666666667rem;
+            background: #fbd42a;
+            text-align: center;
+            line-height: 0.4533333333rem; }
+          .shopcar_goods ul li .goods .case_descript .num {
+            position: absolute;
+            bottom: 0.5333333333rem;
+            right: 0.1333333333rem;
+            color: #a0a0a0; }
+
+.footer {
+  width: 100%;
+  height: 1.3066666667rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0rem;
+  left: 0; }
+  .footer ul {
+    width: 100%;
+    height: 100%; }
+    .footer ul li {
+      text-align: center;
+      float: left;
+      width: 25%;
+      height: 100%;
+      font-size: 0.2133333333rem;
+      color: #444; }
+    .footer ul a {
+      color: #444; }
+      .footer ul a img {
+        width: 0.72rem;
+        height: 0.6933333333rem;
+        margin: 0.1333333333rem; }
+      .footer ul a span {
+        display: block; }
+
+/*# sourceMappingURL=shop_car.css.map */
